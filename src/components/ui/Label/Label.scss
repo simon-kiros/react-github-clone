@@ -1,0 +1,10 @@
+@use "src/assets/scss/variables" as *;
+
+.icon-label {
+  color: #565656;
+  fill: $color-muted;
+
+  &:hover {
+    fill: $color-primary;
+  }
+}

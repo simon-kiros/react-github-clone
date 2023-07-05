@@ -1,0 +1,38 @@
+@use "src/assets/scss/variables" as *;
+
+.profile {
+  background-color: #f6f8f9;
+  margin-right: 4.5rem;
+  margin-left: 4.5rem;
+
+  & .avatar {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+  }
+
+  & .followers {
+    color: $color-muted;
+    fill: $color-muted;
+
+    & .count {
+      color: $color-dark;
+    }
+
+    &:hover,
+    &:hover .count {
+      color: $color-primary;
+      fill: $color-primary;
+    }
+  }
+
+  & .icon {
+    margin-bottom: 3px;
+  }
+}
+
+.repository-header {
+  background-color: #f6f8f9;
+  margin-right: 4.5rem;
+  margin-left: 4.5rem;
+}

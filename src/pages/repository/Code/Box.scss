@@ -1,0 +1,33 @@
+.box {
+  & .avatar {
+    cursor: pointer;
+  }
+
+  & .header {
+    padding: 11px 15px;
+    background-color: rgb(246, 248, 250);
+  }
+
+  & .box-row {
+    padding: 6px 15px;
+  }
+
+  & .line-number > label {
+    //pointer-events: none;
+  }
+
+  & li:hover {
+    background-color: rgb(246, 248, 250);
+  }
+}
+
+.sticky-readme {
+  position: sticky;
+  top: 0;
+  display: block;
+  width: 100%;
+}
+
+.source-code pre {
+  //overflow-x: scroll;
+}

@@ -1,0 +1,78 @@
+@use "src/assets/scss/variables" as *;
+
+.sticky {
+  position: sticky;
+  top: 20px;
+  display: block;
+  width: 100%;
+}
+
+.profile-tab {
+  width: 230px;
+  border: 1px solid $border-color;
+  border-radius: 8px;
+  background-color: $bg-primary;
+  position: relative;
+
+  & li:not(:last-child) {
+    border-bottom: 1px solid $border-color;
+  }
+
+  & a {
+    width: 100%;
+    display: block;
+    color: $color-muted;
+    padding: 5px 8px;
+    border-radius: 6px;
+    //background-color: rgba(208, 215, 222, 0.32);
+  }
+
+  & a:hover,
+  li.selected a {
+    background-color: rgba(208, 215, 222, 0.32);
+    color: $color-dark;
+  }
+
+  & li.selected {
+    border-left: 2px solid #fa4549;
+    border-radius: 3px;
+  }
+
+  & .triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-left: 8px solid #d4dce3;
+    border-bottom: 8px solid transparent;
+    position: absolute;
+    top: 17px;
+    right: -8px;
+  }
+
+  & li .triangle-right {
+    visibility: hidden;
+  }
+
+  & li.selected .triangle-right {
+    visibility: visible;
+  }
+
+  & .icon {
+  }
+}
+
+.repository-item {
+  border: 1px solid #d7dce1;
+  padding: 10px 20px;
+  background-color: $bg-primary;
+}
+
+.color {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 6px;
+}

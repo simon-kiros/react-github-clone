@@ -1,0 +1,19 @@
+.search {
+  margin-right: 4.5rem;
+  margin-left: 4.5rem;
+}
+
+.icon-spinner {
+  margin-left: -33px;
+  margin-top: 2px;
+  animation: rotate-icon 1.2s cubic-bezier(0.4, 0.1, 0.4, 0.5) infinite;
+}
+
+@keyframes rotate-icon {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
