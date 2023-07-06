@@ -11,9 +11,9 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path="search/:name" element={<Search />} />
-        <Route path="profile/:owner/:type" element={<Profile />} />
-        <Route path="repository/:owner/:name/*" element={<Repository />} />
+        <Route path="/search/:name" element={<Search />} />
+        <Route path="/profile/:owner/:type" element={<Profile />} />
+        <Route path="/repository/:owner/:name/*" element={<Repository />} />
         <Route path="*" element={<h2>404 page</h2>} />
       </Routes>
       <Footer />
