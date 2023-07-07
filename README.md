@@ -1,12 +1,12 @@
 
 
-<img src="./github-clone.png" width="150" height="150" style="border: 1px solid gray" />
+<img align="center" src="./github-clone.png" width="150" height="150" style="border: 1px solid gray" />
 
-<p style="text-align: center;font-size: 22px"><b>React Github Clone</b></p>
+<p align="center" style="font-size: 22px"><b>React GitHub Clone</b></p>
 
-<hr />
+#
 
-<p style="text-align: center">Simplified Github Clone built with React and Apollo/GraphQL</p><br>
+<p align="center">Simplified Github Clone built with React and Apollo/GraphQL</p><br>
 
 # About
 
