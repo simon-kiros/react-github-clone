@@ -1,12 +1,20 @@
 
-![Logo](https://github.githubassets.com/images/modules/open_graph/github-logo.png)
 
+<img src="./github-clone.png" width="150" height="150" style="border: 1px solid gray" />
+
+<p style="text-align: center;font-size: 22px"><b>React Github Clone</b></p>
+
+<hr />
+
+<p style="text-align: center">Simplified Github Clone built with React and Apollo/GraphQL</p><br>
 
 # About
 
-A simplified and working clone of the popular version control platform, GitHub, using React library and Apollo Graphql.
+A simplified and working clone of the popular version control platform, <b>GitHub</b>, using React library and Apollo Graphql.
 
 I work as a frontend developer, and I have created this showcase product during my free time. It serves as modern react codebase that reflects real-world practices.
+
+
 
 ## Features
 
@@ -16,6 +24,7 @@ I work as a frontend developer, and I have created this showcase product during 
 - The UI is styled using `Bootstrap 5`.
 - Scalable and easy to understand project structure.
 - Users can search and view GitHub repositories through it. Demo
+
 
 
 ## Installation
@@ -35,10 +44,13 @@ I work as a frontend developer, and I have created this showcase product during 
 ```bash
   npm run dev
 ```
+
+
 ## Contributing
 
-Any contributions you make are greatly appreciated.
+Any contributions you make are <b>greatly appreciated</b>.
 If you have a suggestion that would make this better, please fork the repo and create a pull request.
+
 1.	Fork the Project
 2.	Create your Feature Branch (`git checkout -b feature/NewFeature`)
 3.	Commit your Changes (`git commit -m 'Add some NewFeature'`)
@@ -52,8 +64,11 @@ If you have a suggestion that would make this better, please fork the repo and c
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
-## Authors
 
-- [@simon-kiros](https://www.github.com/simon-kiros)
-- simonkiros007@gmail.com
+
+## Author
+
+- [@simon-kiros](https://www.github.com/simon-kiros)  
+
+  simonkiros007@gmail.com
 
