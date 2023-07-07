@@ -14,7 +14,10 @@ function App() {
         <Route path="/search/:name" element={<Search />} />
         <Route path="/profile/:owner/:type" element={<Profile />} />
         <Route path="/repository/:owner/:name/*" element={<Repository />} />
-        <Route path="*" element={<h2>404 page</h2>} />
+        <Route
+          path="*"
+          element={<h2 className="text-center mt-4">404 Page Not Found</h2>}
+        />
       </Routes>
       <Footer />
     </div>
