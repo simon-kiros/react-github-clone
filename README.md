@@ -1,13 +1,14 @@
-<div align="center"><img src="./github-clone.png" width="150" height="150" style="border: 1px solid gray" /></div>
+<div align="center"><img src="./github-clone.png" width="150" height="100" style="border: 1px solid gray" /></div>
 
-<p align="center" style="font-size: 22px"><b>React GitHub Clone</b></p>
-<p align="center"><a href="https://react-github-clone-gray.vercel.app/search/react">DEMO</a></b></p>
+### <p align="center" style="font-size: 22px"><b>React GitHub Clone</b></p>
+
+<p align="center"><a target="_blank" href="https://react-github-clone-gray.vercel.app/search/react">DEMO</a></b></p>
 
 #
 
 <p align="center">Simplified Github Clone built with React and Apollo/GraphQL</p><br>
 
-<div align="center"><img src="./screenshot.png" width="400" height="400" style="border: 1px solid gray" /></div></br>
+<div align="center"><img src="./screenshot.PNG" width="800" height="400" style="border: 1px solid gray" /></div></br>
 
 # About
 
