@@ -2,7 +2,7 @@
 
 ### <p align="center" style="font-size: 22px"><b>React GitHub Clone</b></p>
 
-<p align="center"><a target="_blank" href="https://react-github-clone-gray.vercel.app/search/react">DEMO</a></b></p>
+<p align="center"><a target="_blank" href="https://react-github-clone-gray.vercel.app/search/nodejs">DEMO</a></b></p>
 
 #
 
@@ -31,7 +31,7 @@ I work as a frontend developer, and I have created this showcase product during 
 2. Clone the repo
 
 ```bash
-  git clone https://github.com/xtekky/chatgpt-clone.git
+  git clone https://github.com/simon-kiros/react-github-clone.git
 ```
 
 3. Install NPM packages
